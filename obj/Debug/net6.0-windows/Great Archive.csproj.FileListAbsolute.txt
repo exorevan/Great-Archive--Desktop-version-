@@ -1,0 +1,66 @@
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.csproj.AssemblyReference.cache
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\authorization.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\registration.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive_MarkupCompile.cache
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive_MarkupCompile.lref
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Great Archive.exe
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Great Archive.deps.json
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Great Archive.runtimeconfig.json
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Great Archive.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Great Archive.pdb
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Accelergreat.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Accelergreat.EntityFramework.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Accelergreat.EntityFramework.PostgreSql.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\exore\Desktop\vs\Great Archive\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\authorization.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\registration.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.g.resources
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.AssemblyInfoInputs.cache
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.AssemblyInfo.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.csproj.CoreCompileInputs.cache
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.csproj.CopyComplete
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.dll
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\refint\Great Archive.dll
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.pdb
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\Great Archive.genruntimeconfig.cache
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\ref\Great Archive.dll
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\list_page.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\user_page.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\list_page.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\user_page.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comicbook.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comicbook.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comics_reader.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comics_reader.baml
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comics_downloaded.g.cs
+C:\Users\exore\Desktop\vs\Great Archive\obj\Debug\net6.0-windows\comics_downloaded.baml

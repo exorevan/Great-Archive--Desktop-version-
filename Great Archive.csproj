@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Great_Archive</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1200px-Speech_balloon.svg.png" />
+    <None Remove="png-transparent-guy-fawkes-mask-illustration-guy-fawkes-mask-anonymous-anonymous-mask-face-people-head.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accelergreat.EntityFramework.PostgreSql" Version="1.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1200px-Speech_balloon.svg.png" />
+    <Resource Include="png-transparent-guy-fawkes-mask-illustration-guy-fawkes-mask-anonymous-anonymous-mask-face-people-head.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,84 @@
+﻿<Page x:Class="Great_Archive.comicbook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Great_Archive"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="comicbook">
+
+    <Grid Background="#FF673467">
+        <Menu Height="25" VerticalAlignment="Top" Background="{x:Null}">
+            <MenuItem Header="Комиксы" Foreground="White">
+                <Button Click="Publishers" Content="Издательства" />
+                <Button Click="Titles" Content="Линейки" />
+                <Button Click="Volumes" Content="Тома" />
+                <Button Click="Comics" Content="Выпуски" />
+            </MenuItem>
+            <MenuItem Click="Tags" Header="Теги" Foreground="White" ></MenuItem>
+            <MenuItem Click="Authors" Header="Авторы" Foreground="White" ></MenuItem>
+            <Button Click="ComicsDownloaded" Content="Скаченные комиксы" />
+        </Menu>
+
+        <TextBlock x:Name="comicbook_name" TextWrapping="Wrap" Text="Название комикса" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" FontSize="25" FontStyle="Italic" FontWeight="Heavy" MaxWidth="370"  Height="86" Width="370" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Repeat">
+                    <GradientStop Color="White" Offset="0.234"/>
+                    <GradientStop Color="#FF545454" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <Label x:Name="average_rate" Content="Средняя оценка" HorizontalAlignment="Center" Margin="584,48,0,0" VerticalAlignment="Top" FontWeight="ExtraBold" FontStyle="Oblique" FontStretch="SemiExpanded" Foreground="White" FontSize="22"/>
+        <Label Content="Работали над комиксом:" HorizontalAlignment="Left" Margin="563,97,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <Label Content="Сценарий:" HorizontalAlignment="Left" Margin="488,142,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <Label Content="Рисунок:" HorizontalAlignment="Left" Margin="488,183,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <Label Content="Тушь:" HorizontalAlignment="Left" Margin="488,223,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <Label Content="Цвет:" HorizontalAlignment="Left" Margin="488,264,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        
+        <Button x:Name="writer_button" Click="AuthorRedirect" Content="Label" HorizontalAlignment="Left" Margin="584,142,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" Width="206" Background="{x:Null}"/>
+        <Button x:Name="pencil_button" Click="AuthorRedirect" Content="Label" HorizontalAlignment="Left" Margin="584,183,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" Width="206" Background="{x:Null}"/>
+        <Button x:Name="ink_button" Click="AuthorRedirect" Content="Label" HorizontalAlignment="Left" Margin="584,223,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" Width="206" Background="{x:Null}"/>
+        <Button x:Name="color_button" Click="AuthorRedirect" Content="Label" HorizontalAlignment="Left" Margin="584,264,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" Width="206" Background="{x:Null}"/>
+
+        <DataGrid x:Name="tags_grid" Margin="488,333,10,10"  ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Background="#33FFFFFF" Foreground="Black" >
+            <DataGrid.Effect>
+                <DropShadowEffect/>
+            </DataGrid.Effect>
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" Handler="TagRedirect"/>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+        </DataGrid>
+        <Label Content="Теги" HorizontalAlignment="Left" Margin="621,294,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="46" FontWeight="SemiBold"/>
+        <Button Content="Скачать" Click="ComicsDownload" HorizontalAlignment="Left" Margin="37,363,0,0" VerticalAlignment="Top" Height="24" Width="380"/>
+        <Button Content="Читать онлайн" Click="ReaderRedirect" HorizontalAlignment="Left" Margin="37,400,0,0" VerticalAlignment="Top" Height="37" Width="414"/>
+
+        <TextBlock x:Name="description" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" Text="Описание комикса" VerticalAlignment="Top" Height="200" Width="473" Foreground="White" FontSize="10" />
+        <ComboBox HorizontalAlignment="Left" Margin="109,327,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <TextBlock>7</TextBlock>
+            <TextBlock>8</TextBlock>
+            <TextBlock>9</TextBlock>
+            <TextBlock>10</TextBlock>
+        </ComboBox>
+        <Label Content="Оценка:" HorizontalAlignment="Left" Margin="28,323,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+
+        <Button x:Name="publicher_name_button" Content="Издательство" Click="PublisherRedirect" HorizontalAlignment="Left" Margin="423,47,0,0" VerticalAlignment="Top" Foreground="#FF9AFF7F" FontSize="16" FontWeight="UltraBlack" Height="29" Width="130" Background="{x:Null}" >
+            <Button.OpacityMask>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#000000FF" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="249,327,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
